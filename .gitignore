@@ -1,0 +1,10 @@
+*.jar
+*.class
+/bin/
+/build/
+/gradle/
+/run/
+/logs/
+/.idea/
+/.vs/
+.DS_Store
