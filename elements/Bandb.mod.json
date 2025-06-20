@@ -1,0 +1,10 @@
+{
+  "_fv": 77,
+  "_type": "command",
+  "definition": {
+    "commandName": "bandb",
+    "type": "STANDARD",
+    "permissionLevel": "4",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"call_procedure\"><field name=\"procedure\"></field><next><block type=\"literal\"><field name=\"name\">set</field><statement name=\"args\"><block type=\"literal\"><field name=\"name\">giantzombie</field><statement name=\"args\"><block type=\"literal\"><field name=\"name\">true</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">OnGiant</field></block></statement><next><block type=\"literal\"><field name=\"name\">false</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">OffGiant</field></block></statement></block></next></block></statement><next><block type=\"literal\"><field name=\"name\">shrinkzombies</field><statement name=\"args\"><block type=\"literal\"><field name=\"name\">true</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">OffShrink</field></block></statement><next><block type=\"literal\"><field name=\"name\">false</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">OnShrink</field></block></statement></block></next></block></statement></block></next></block></statement></block></next></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "CUSTOM:ImprovedGiantPotion"
+    },
+    "brewingIngredientStack": {
+      "value": "Items.EMERALD"
+    },
+    "brewingReturnStack": {
+      "value": "CUSTOM:ImprovedShrinkingPotion"
+    },
+    "name": "shrink",
+    "namespace": "mod"
+  }
+}

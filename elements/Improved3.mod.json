@@ -1,0 +1,25 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "CUSTOM:GiantPotion"
+    },
+    "brewingIngredientStack": {
+      "value": "Items.GOLDEN_APPLE#1"
+    },
+    "brewingReturnStack": {
+      "value": "CUSTOM:ImprovedGiantPotion"
+    },
+    "name": "improved_3",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "attribute.bigger_and_better.size": "Size",
+  "item.bigger_and_better.improved_giant_potion.description_0": "obtained by brewing giant potion using golden radish or golden apple",
+  "item.bigger_and_better.giant_potion.description_0": "Don\u0027t try to drink this",
+  "item.bigger_and_better.test.description_0": "Right click to test biological size, or hold down shift to test yourself",
+  "item.bigger_and_better.improved_giant_potion": "Improved giant potion",
+  "item_group.bigger_and_better.bigger_and_better": "Bigger And Better",
+  "item.bigger_and_better.improved_shrinking_potion": "Improved Shrinking Potion",
+  "item.bigger_and_better.shrink_apple": "Shrink Apple",
+  "death.attack.trample.item": "%1$s was trampled to death by %2$s using %3$s",
+  "item.bigger_and_better.giant_apple": "Giant Apple",
+  "death.attack.trample.player": "%1$s was trampled to death by %2$s while attempting to escape",
+  "item.bigger_and_better.giant_potion": "Giant Potion",
+  "item.bigger_and_better.test": "Test Size",
+  "death.attack.trample": "%1$s was trampled to death by %2$s",
+  "item.bigger_and_better.improved_shrinking_potion.description_0": "Brewing an Improved Giant Potion with Emerald Stones"
+}

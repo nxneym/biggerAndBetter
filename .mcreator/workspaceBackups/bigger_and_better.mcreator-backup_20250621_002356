@@ -1,0 +1,590 @@
+{
+  "mod_elements": [
+    {
+      "name": "GiantPotion",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_potion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biggerandbetter/item/GiantPotionItem.java",
+          "src/main/resources/assets/bigger_and_better/models/item/giant_potion.json"
+        ]
+      }
+    },
+    {
+      "name": "BiggerAndBetter",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigger_and_better",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Bandb",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bandb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biggerandbetter/command/BandbCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Generate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biggerandbetter/procedures/GenerateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OffGiant",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "off_giant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biggerandbetter/procedures/OffGiantProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnGiant",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_giant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biggerandbetter/procedures/OnGiantProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OffShrink",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "off_shrink",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biggerandbetter/procedures/OffShrinkProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnShrink",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_shrink",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biggerandbetter/procedures/OnShrinkProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FallingObjects",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "falling_objects",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biggerandbetter/procedures/FallingObjectsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DrinkUp",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drink_up",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biggerandbetter/procedures/DrinkUpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ImprovedGiantPotion",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "improved_giant_potion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biggerandbetter/item/ImprovedGiantPotionItem.java",
+          "src/main/resources/assets/bigger_and_better/models/item/improved_giant_potion.json"
+        ]
+      }
+    },
+    {
+      "name": "Improved",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "improved",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biggerandbetter/recipe/brewing/ImprovedBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Improved2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "improved_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biggerandbetter/recipe/brewing/Improved2BrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Improved3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "improved_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biggerandbetter/recipe/brewing/Improved3BrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Size",
+      "type": "attribute",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "size",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ClearSize",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clear_size",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biggerandbetter/procedures/ClearSizeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GiantApple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bigger_and_better/models/item/giant_apple.json",
+          "src/main/java/net/mcreator/biggerandbetter/item/GiantAppleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GiantEat",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_eat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biggerandbetter/procedures/GiantEatProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GiantUse",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_use",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biggerandbetter/procedures/GiantUseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Test",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biggerandbetter/item/TestItem.java",
+          "src/main/resources/assets/bigger_and_better/models/item/test.json"
+        ]
+      }
+    },
+    {
+      "name": "TestSize",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_size",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biggerandbetter/procedures/TestSizeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ImprovedShrinkingPotion",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "improved_shrinking_potion",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bigger_and_better/models/item/improved_shrinking_potion.json",
+          "src/main/java/net/mcreator/biggerandbetter/item/ImprovedShrinkingPotionItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Shrink",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shrink",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biggerandbetter/recipe/brewing/ShrinkBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "ShrinkApple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shrink_apple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biggerandbetter/item/ShrinkAppleItem.java",
+          "src/main/resources/assets/bigger_and_better/models/item/shrink_apple.json"
+        ]
+      }
+    },
+    {
+      "name": "ShrinkUse",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shrink_use",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biggerandbetter/procedures/ShrinkUseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TestSelf",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_self",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biggerandbetter/procedures/TestSelfProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Penetrate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penetrate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biggerandbetter/procedures/PenetrateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Trample",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trample",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bigger_and_better/damage_type/trample.json"
+        ]
+      }
+    },
+    {
+      "name": "Hit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biggerandbetter/procedures/HitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShrinkEat",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shrink_eat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biggerandbetter/procedures/ShrinkEatProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Giantzombie",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "Shrinkzombies",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:dirt": [],
+    "BIOMES:minecraft:is_overworld": [],
+    "BLOCKS:minecraft:sand": [],
+    "BLOCKS:minecraft:leaves": [],
+    "ITEMS:minecraft:arrows": [],
+    "BLOCKS:minecraft:logs": [],
+    "ITEMS:minecraft:planks": []
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "attribute.bigger_and_better.size": "Size",
+      "item.bigger_and_better.giant_potion.description_0": "Don\u0027t try to drink this",
+      "item.bigger_and_better.test.description_0": "Right click to test biological size, or hold down shift to test yourself",
+      "item.bigger_and_better.improved_giant_potion": "Improved giant potion",
+      "item_group.bigger_and_better.bigger_and_better": "Bigger And Better",
+      "item.bigger_and_better.improved_shrinking_potion": "Improved Shrinking Potion",
+      "item.bigger_and_better.shrink_apple": "Shrink Apple",
+      "death.attack.trample.item": "%1$s was trampled to death by %2$s using %3$s",
+      "item.bigger_and_better.giant_apple": "Giant Apple",
+      "death.attack.trample.player": "%1$s was trampled to death by %2$s while attempting to escape",
+      "item.bigger_and_better.giant_potion": "Giant Potion",
+      "item.bigger_and_better.test": "Test Size",
+      "death.attack.trample": "%1$s was trampled to death by %2$s"
+    },
+    "zh_cn": {
+      "attribute.bigger_and_better.size": "Size",
+      "item.bigger_and_better.giant_potion.description_0": "不要喝这个",
+      "item.bigger_and_better.test.description_0": "右键测试生物大小，或者按住shift测试你自己",
+      "item.bigger_and_better.improved_giant_potion": "改良巨大化药水",
+      "item_group.bigger_and_better.bigger_and_better": "更大更好",
+      "item.bigger_and_better.improved_shrinking_potion": "改良缩小要是",
+      "item.bigger_and_better.shrink_apple": "缩小苹果",
+      "death.attack.trample.item": "%1$s 被 %2$s 用 %3$s 踩死了",
+      "item.bigger_and_better.giant_apple": "巨大化苹果",
+      "death.attack.trample.player": "%1$s 在尝试逃离 %2$s 的时候被踩死了",
+      "item.bigger_and_better.giant_potion": "巨大化药剂",
+      "item.bigger_and_better.test": "大小测试",
+      "death.attack.trample": "%1$s 被 %2$s 踩死了"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "bigger_and_better",
+    "modName": "Bigger and better",
+    "version": "0.5.0",
+    "author": "水影仄华, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [
+      "pehkui"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.biggerandbetter"
+  },
+  "mcreatorVersion": 202500113416
+}
