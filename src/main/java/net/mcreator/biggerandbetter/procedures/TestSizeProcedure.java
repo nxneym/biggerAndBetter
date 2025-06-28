@@ -6,6 +6,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.Event;
 
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
@@ -13,7 +14,6 @@ import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 
 import net.mcreator.biggerandbetter.init.BiggerAndBetterModItems;
-import net.mcreator.biggerandbetter.init.BiggerAndBetterModAttributes;
 
 import javax.annotation.Nullable;
 
@@ -41,10 +41,7 @@ public class TestSizeProcedure {
 						_ent.getServer().getCommands().performPrefixedCommand(
 								new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4, _ent.getName().getString(), _ent.getDisplayName(),
 										_ent.level().getServer(), _ent),
-								("tellraw @s \"Its size is " + ""
-										+ (entity instanceof LivingEntity _livingEntity3 && _livingEntity3.getAttributes().hasAttribute(BiggerAndBetterModAttributes.SIZE)
-												? _livingEntity3.getAttribute(BiggerAndBetterModAttributes.SIZE).getBaseValue()
-												: 0)
+								("tellraw @s \"Its size is " + "" + (entity instanceof LivingEntity _livingEntity3 && _livingEntity3.getAttributes().hasAttribute(Attributes.SCALE) ? _livingEntity3.getAttribute(Attributes.SCALE).getBaseValue() : 0)
 										+ "\""));
 					}
 				}

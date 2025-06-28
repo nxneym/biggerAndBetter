@@ -4,7 +4,7 @@ license="Not specified"
 
 [[mods]]
 modId="bigger_and_better"
-version="0.5.0"
+version="0.5.1"
 displayName="Bigger and better"
 displayURL="https://mcreator.net"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
@@ -27,12 +27,6 @@ authors="\u6C34\u5F71\u4EC4\u534E, MCreator"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.bigger_and_better]]
-    modId="pehkui"
-    type="required"
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 
 
 
