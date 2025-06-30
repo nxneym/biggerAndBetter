@@ -2,10 +2,10 @@
   "attribute.bigger_and_better.size": "Size",
   "item.bigger_and_better.improved_giant_potion": "改良巨大化药水",
   "item_group.bigger_and_better.bigger_and_better": "更大更好",
-  "item.bigger_and_better.improved_shrinking_potion": "改良缩小要是",
+  "item.bigger_and_better.improved_shrinking_potion": "改良缩小药水",
   "item.bigger_and_better.shrink_apple": "缩小苹果",
-  "death.attack.trample.item": "%1$s 被 %2$s 用 %3$s 踩死了",
   "attribute.bigger_and_better.default_size": "Default Size",
+  "death.attack.trample.item": "%1$s 被 %2$s 用 %3$s 踩死了",
   "item.bigger_and_better.giant_potion": "巨大化药剂",
   "death.attack.trample": "%1$s 被 %2$s 踩死了",
   "attribute.bigger_and_better.default_knock": "Default Knock",
@@ -22,5 +22,6 @@
   "item.bigger_and_better.test": "大小测试",
   "item.bigger_and_better.improved_shrinking_potion.description_0": "通过绿宝石酿造改良巨大化药水获得",
   "attribute.bigger_and_better.default_speed": "Default Speed",
-  "attribute.bigger_and_better.first_entry": "First Entry"
+  "attribute.bigger_and_better.first_entry": "First Entry",
+  "attribute.bigger_and_better.default_armor": "Default Armor"
 }

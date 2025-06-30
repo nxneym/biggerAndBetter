@@ -22,5 +22,6 @@
   "item.bigger_and_better.test": "Test Size",
   "item.bigger_and_better.improved_shrinking_potion.description_0": "Brewing an Improved Giant Potion with Emerald Stones",
   "attribute.bigger_and_better.default_speed": "Default Speed",
-  "attribute.bigger_and_better.first_entry": "First Entry"
+  "attribute.bigger_and_better.first_entry": "First Entry",
+  "attribute.bigger_and_better.default_armor": "Default Armor"
 }

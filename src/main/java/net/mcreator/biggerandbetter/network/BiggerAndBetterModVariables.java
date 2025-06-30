@@ -98,6 +98,7 @@ public class BiggerAndBetterModVariables {
 		public static final String DATA_NAME = "bigger_and_better_mapvars";
 		public boolean Giantzombie = true;
 		public boolean Shrinkzombies = true;
+		public boolean restore = true;
 
 		public static MapVariables load(CompoundTag tag, HolderLookup.Provider lookupProvider) {
 			MapVariables data = new MapVariables();
@@ -108,12 +109,14 @@ public class BiggerAndBetterModVariables {
 		public void read(CompoundTag nbt, HolderLookup.Provider lookupProvider) {
 			Giantzombie = nbt.getBoolean("Giantzombie");
 			Shrinkzombies = nbt.getBoolean("Shrinkzombies");
+			restore = nbt.getBoolean("restore");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt, HolderLookup.Provider lookupProvider) {
 			nbt.putBoolean("Giantzombie", Giantzombie);
 			nbt.putBoolean("Shrinkzombies", Shrinkzombies);
+			nbt.putBoolean("restore", restore);
 			return nbt;
 		}
 

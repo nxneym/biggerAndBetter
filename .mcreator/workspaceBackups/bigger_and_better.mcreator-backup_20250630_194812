@@ -684,16 +684,6 @@
           }
         ]
       }
-    },
-    {
-      "name": "DefaultArmor",
-      "type": "attribute",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "default_armor",
-      "metadata": {
-        "files": []
-      }
     }
   ],
   "variable_elements": [
@@ -752,8 +742,7 @@
       "item.bigger_and_better.test": "Test Size",
       "item.bigger_and_better.improved_shrinking_potion.description_0": "Brewing an Improved Giant Potion with Emerald Stones",
       "attribute.bigger_and_better.default_speed": "Default Speed",
-      "attribute.bigger_and_better.first_entry": "First Entry",
-      "attribute.bigger_and_better.default_armor": "Default Armor"
+      "attribute.bigger_and_better.first_entry": "First Entry"
     },
     "zh_cn": {
       "attribute.bigger_and_better.size": "Size",
@@ -779,8 +768,7 @@
       "item.bigger_and_better.test": "大小测试",
       "item.bigger_and_better.improved_shrinking_potion.description_0": "通过绿宝石酿造改良巨大化药水获得",
       "attribute.bigger_and_better.default_speed": "Default Speed",
-      "attribute.bigger_and_better.first_entry": "First Entry",
-      "attribute.bigger_and_better.default_armor": "Default Armor"
+      "attribute.bigger_and_better.first_entry": "First Entry"
     }
   },
   "foldersRoot": {
@@ -790,7 +778,7 @@
   "workspaceSettings": {
     "modid": "bigger_and_better",
     "modName": "Bigger and better",
-    "version": "0.5.2",
+    "version": "0.5.1",
     "author": "水影仄华, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",

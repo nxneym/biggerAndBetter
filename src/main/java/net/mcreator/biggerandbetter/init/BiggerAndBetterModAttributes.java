@@ -30,6 +30,7 @@ public class BiggerAndBetterModAttributes {
 	public static final DeferredHolder<Attribute, Attribute> DEFAULT_KNOCK = REGISTRY.register("default_knock", () -> new RangedAttribute("attribute.bigger_and_better.default_knock", 0, 0, 100).setSyncable(true));
 	public static final DeferredHolder<Attribute, Attribute> DEFAULT_STEP = REGISTRY.register("default_step", () -> new RangedAttribute("attribute.bigger_and_better.default_step", 0, 0, 100).setSyncable(true));
 	public static final DeferredHolder<Attribute, Attribute> FIRST_ENTRY = REGISTRY.register("first_entry", () -> new RangedAttribute("attribute.bigger_and_better.first_entry", 0, 0, 1).setSyncable(true));
+	public static final DeferredHolder<Attribute, Attribute> DEFAULT_ARMOR = REGISTRY.register("default_armor", () -> new RangedAttribute("attribute.bigger_and_better.default_armor", 0, 0, 100).setSyncable(true));
 
 	@SubscribeEvent
 	public static void addAttributes(EntityAttributeModificationEvent event) {
@@ -43,5 +44,6 @@ public class BiggerAndBetterModAttributes {
 		event.add(EntityType.PLAYER, DEFAULT_KNOCK);
 		event.add(EntityType.PLAYER, DEFAULT_STEP);
 		event.add(EntityType.PLAYER, FIRST_ENTRY);
+		event.add(EntityType.PLAYER, DEFAULT_ARMOR);
 	}
 }
